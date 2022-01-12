@@ -3,17 +3,20 @@
 h1, h2, h3 {
     margin: 0;
     line-height: 1.2;
+
+}
+h1, h2 {
+    font-weight: 400;
 }
 h1 {
     font-size: 4.4rem;
-    font-family: v.$fuenteHeading;
 }
 h2 {
-    font-size: 4rem;
-    font-family: v.$fuenteHeading;
+    font-size: 3.4rem;
 }
 h3 {
-    font-size: 3rem;
+    font-size: 2.4rem;
+    font-weight: 300;
 }
 [class$="heading"] {
     margin: 2rem 0;
@@ -23,7 +26,6 @@ a {
     color: v.$negro;
 }
 p {
-    color: v.$negro;
     font-size: 1.6rem;
     line-height: 1.8;
 }

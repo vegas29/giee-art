@@ -1,17 +1,19 @@
 // Fuentes
-$fuentePrincipal: 'Raleway', sans-serif;
-$fuenteHeading: 'Staatliches', cursive;
+$fuentePrincipal: 'Roboto', sans-serif;
+$fuenteHeadings: 'Kanit', sans-serif;
 
 // Tamaño de Media Queries
 $telefono: 480px;
 $tablet: 768px;
 $desktop: 1024px;
+$desktopxl: 1200px;
 
 // Colores
-$primario: #B8336A;
-$secundario: #068D9D;
-$terciario:  #ff8015;
+$primario: #9180E6;
+$secundario: #FF355A;
+$secundarioHover: #e43051;
+$terciario: #FF355A;
 $negro: #000;
 $blanco: #FFFFFF;
-$gris: #484349;
-$grisClaro: #F2F2F2;
+$gris: #f5f5f5;
+$grisOscuro: #e1e1e1;

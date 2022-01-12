@@ -1,5 +1,8 @@
 @use 'base';
-@use 'ui/header';
-@use 'ui/contenido';
-@use 'ui/meeti';
-@use 'ui/footer';
+@use 'header';
+@use 'menu_mobile';
+@use 'aboutme';
+@use 'portfolio';
+@use 'contactme';
+@use 'btn';
+@use 'footer';

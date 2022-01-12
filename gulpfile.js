@@ -24,7 +24,7 @@ function css( done ) {
 }
 
 function imagenes() {
-    return src('src/img/**/*')
+    return src('src/imgs/**/*')
         .pipe( imagemin({ optimizationLevel: 3 }) )
         .pipe( dest('build/img') )
 }
@@ -33,7 +33,7 @@ function versionWebp() {
     const opciones = {
         quality: 50
     }
-    return src('src/img/**/*.{png,jpg}')
+    return src('src/imgs/**/*.{png,jpg}')
         .pipe( webp( opciones ) )
         .pipe( dest('build/img') )
 }
@@ -48,7 +48,7 @@ function versionAvif() {
 
 function dev() {
     watch( 'src/scss/**/*.scss', css );
-    watch( 'src/img/**/*', imagenes );
+    watch( 'src/imgs/**/*', imagenes );
 }
 
 
