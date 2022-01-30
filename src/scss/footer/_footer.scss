@@ -2,7 +2,8 @@
 @use 'base/mixins' as m;
 
 .footer{
-    background-color: v.$primario;
+    background-image: url(../img/background.jpg);
+    background-position: 73% 77%;
 }
 
 .footer__title{
