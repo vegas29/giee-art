@@ -37,6 +37,7 @@
 .banner__title{
     font-size: 3.2rem;
     font-weight: bold;
+    text-align: center;
 
     @include m.tablet{
         font-size: 4.5rem;
@@ -89,7 +90,7 @@
 }
 
 .portfolio__title{
-    margin-top: 10rem;
+    margin-top: 5rem;
     color: v.$secundario;
     font-weight: bold;
     font-size: 4rem;
@@ -225,11 +226,11 @@ video{
     border-radius: 50%;
     display: block;
     margin: 0 auto;
-    padding: 1rem 1.8rem;
+    padding: 1.5rem 1.8rem;
     color: v.$blanco;
     font-weight: bold;
     margin-top: 7rem;
-    width: 4.5rem;
+    width: 5rem;
     cursor: pointer;
 
     &:hover{
